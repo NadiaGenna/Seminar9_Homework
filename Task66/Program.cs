@@ -18,5 +18,4 @@ void GapNumberSum(int numberM, int numberN, int sum)
     sum = sum + (numberM++);
     GapNumberSum(numberM, numberN, sum);
 }
-
 GapNumberSum(numberM, numberN, 0);
